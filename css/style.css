@@ -7,6 +7,7 @@ html {
 }
 
 body {
+  /*font-familyが複数あるのは第１候補～第４候補*/
   font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", sans-serif;
   line-height: 1.7;
   color: #432;
@@ -22,6 +23,7 @@ img {
 
 /*レイアウト*/
 .align-center {
+  /*align = 整列*/
   text-align: center;
 }
 
@@ -38,11 +40,13 @@ img {
 }
 
 .page-title {
+  /*margin = 余白*/
   margin-top: 2rem;
   line-height: 1.4;
 }
 
 .heading-large {
+  /*bottom = 底*/
   margin-bottom: 1rem;
 }
 
