@@ -86,10 +86,17 @@ img {
 }
 
 .main-nav {
+  /*block = 縦ならび
+  　flex = 横並び*/
   display: flex;
+  /*justify = 正当化する
+  　 要素の主軸に沿っての位置決め*/
   justify-content: center;
+  /*gap = 隙間
+  　アイテム同士の間に最低限あける隙間*/
   gap: 2.5rem;
   font-size: 1.5rem;
+  /*list-style = 先頭の"・"や"数字"の見た目*/
   list-style: none;
 }
 
@@ -103,6 +110,7 @@ img {
 
 .cover {
   background-size: cover;
+  /*botten = 一番下*/
   background-position: center bottom;
   height: 800px;
 }
@@ -114,6 +122,7 @@ img {
 .about {
   max-width: 736px;
   padding: 0 1.5rem;
+  /*上　左右　下*/
   margin: 3rem auto 4rem;
 }
 
@@ -124,6 +133,7 @@ img {
 /*フッター*/
 .page-footer {
   background-image: url(../images/fotter-s.webp);
+  /*cover = 画面いっぱいに見せる*/
   background-size: cover;
   background-position: center;
   padding-top: 12rem;
@@ -134,11 +144,14 @@ img {
   max-width: 544px;
   margin: auto;
   padding: 0 1.5rem;
+  /*spacing = 間隔*/
   border-spacing: 0;
 }
 
 .info th,
 .info td {
+  /*solid = 固体(中身が詰まっている)
+  　solid = 一本線*/
   border-bottom: 1px solid #c9c2bc;
 }
 
