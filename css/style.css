@@ -73,6 +73,7 @@ img {
 }
 
 .btn:hover {
+  scale: 1,2;
   background-color: #0090aa;
 }
 
