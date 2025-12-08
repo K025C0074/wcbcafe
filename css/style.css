@@ -132,7 +132,7 @@ img {
 
 /*フッター*/
 .page-footer {
-  background-image: url(../images/fotter-s.webp);
+  background-image: url(../images/footer-s.webp);
   /*cover = 画面いっぱいに見せる*/
   background-size: cover;
   background-position: center;
