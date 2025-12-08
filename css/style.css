@@ -53,7 +53,7 @@ img {
 }
 
 /*ボタン*/
-.ben {
+.btn {
   /*inlineは、横に並ぶ(文章の一部)
   　blockは、縦に積まれる(改行される)*/
   display: inline-block;
