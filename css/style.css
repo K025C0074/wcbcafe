@@ -138,6 +138,10 @@ img {
   margin-bottom: 3rem;
 }
 
+.cover-news {
+  background-image: url(../images/cover-news-s\ \(1\).webp);
+}
+
 /*フッター*/
 .page-footer {
   background-image: url(../images/footer-s.webp);
