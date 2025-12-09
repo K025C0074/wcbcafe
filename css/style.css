@@ -36,7 +36,8 @@ img {
 }
 
 .page-title,
-.heading-large {
+.heading-large,
+.heading-medium {
   font-size: 3rem;
   text-align: center;
 }
@@ -191,6 +192,23 @@ img {
   line-height: 2;
 }
 
+/*サイドバー*/
+.side-menu {
+  list-style: none;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.side-menu li {
+  border-bottom: 1px solid #c9c2bc;
+}
+
+.side-menu a {
+  color: #432;
+  display: block;
+  padding: #0bd;
+}
+
 /*フッター*/
 .page-footer {
   background-image: url(../images/footer-s.webp);
@@ -244,6 +262,10 @@ img {
     font-size: 4rem;
   }
 
+  .post-title {
+    font-size: 2rem;
+  }
+
   /*ヘッダー*/
   .page-header{
     display: flex;
@@ -253,5 +275,35 @@ img {
 
   .main-nav{
     font-size: 2rem;
+  }
+
+  /*ヘッダーカバー画像*/
+  .sub-cover {
+    height: 400px;
+    margin-bottom: 6rem;
+  }
+
+  /*HOME*/
+  .cover-home {
+    background-image: url(../images/cover-home-l.webp);
+  }
+
+  .about {
+    margin: 4rem auto 0;
+  }
+
+  /*NEWS*/
+  .cover-news {
+    background-image: url(../images/cover-news-l.webp);
+  }
+
+  /*フッター*/
+  .page-footer {
+    background-image: url(../images/footer-l.webp);
+    padding-top: 12rem;
+  }
+
+  .info th {
+    padding-left: 2.5rem;
   }
 }
