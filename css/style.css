@@ -252,7 +252,7 @@ img {
   color: #fff;
 }
 
-@media (min_width: 800px){
+@media (min-width: 800px){
   /*見出し*/
   .page-title{
     font-size: 5rem;
